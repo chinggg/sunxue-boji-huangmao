@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="孙学 薄肌 黄毛">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="55%" stop-color="#16233A"/>
+      <stop offset="100%" stop-color="#1D3A5F"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F5C451"/>
+      <stop offset="100%" stop-color="#E8A33D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.35" r="0.55">
+      <stop offset="0%" stop-color="#2E5C99" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2E5C99" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <style>
+      .t { font-family: "PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+  <rect width="1200" height="420" fill="url(#glow)"/>
+
+  <!-- accent bar -->
+  <rect x="72" y="92" width="6" height="150" rx="3" fill="url(#gold)"/>
+
+  <!-- title -->
+  <text class="t" x="104" y="150" font-size="62" font-weight="700" fill="#F5F7FA" letter-spacing="6">孙学 · 薄肌 · 黄毛</text>
+  <text class="t" x="106" y="196" font-size="25" font-weight="500" fill="#9FB4D0" letter-spacing="1">一套面向「大压抑时代」的低成本个人操作系统</text>
+  <text class="t" x="106" y="228" font-size="16" font-weight="400" fill="#6E88AB" letter-spacing="2.5">LOW-COST PERSONAL OS FOR THE GREAT-REPRESSION ERA</text>
+
+  <!-- skill badge (右上角) -->
+  <g class="t">
+    <rect x="962" y="34" width="166" height="34" rx="17" fill="#F5C451" fill-opacity="0.12" stroke="#F5C451" stroke-opacity="0.5"/>
+    <circle cx="985" cy="51" r="4" fill="#F5C451"/>
+    <text x="999" y="57" font-size="14" font-weight="700" fill="#F5C451" letter-spacing="1.6">AGENT SKILL</text>
+  </g>
+
+  <!-- quote -->
+  <text class="t" x="74" y="288" font-size="19" fill="#8FA6C6">高富帅是把资源花在「让人羡慕」上 —— 那是消费。</text>
+  <text class="t" x="74" y="318" font-size="19" font-weight="600" fill="#F5C451">孙学是把资源花在「最后站着的是我」上 —— 那是投资。</text>
+
+  <!-- three chips -->
+  <g class="t">
+    <g transform="translate(742,92)">
+      <rect width="386" height="66" rx="12" fill="#FFFFFF" fill-opacity="0.07" stroke="#F5C451" stroke-opacity="0.45"/>
+      <circle cx="36" cy="33" r="17" fill="#F5C451" fill-opacity="0.16"/>
+      <text x="36" y="40" font-size="17" font-weight="700" fill="#F5C451" text-anchor="middle">内</text>
+      <text x="66" y="28" font-size="19" font-weight="700" fill="#F5F7FA">孙学　Kernel</text>
+      <text x="66" y="50" font-size="14" fill="#9FB4D0">ROI 最大化 · 评价不计入成本</text>
+    </g>
+    <g transform="translate(742,172)">
+      <rect width="386" height="66" rx="12" fill="#FFFFFF" fill-opacity="0.07" stroke="#E2574C" stroke-opacity="0.45"/>
+      <circle cx="36" cy="33" r="17" fill="#E2574C" fill-opacity="0.18"/>
+      <text x="36" y="40" font-size="17" font-weight="700" fill="#F0857C" text-anchor="middle">体</text>
+      <text x="66" y="28" font-size="19" font-weight="700" fill="#F5F7FA">薄肌　Body OS</text>
+      <text x="66" y="50" font-size="14" fill="#9FB4D0">功能型资产 · 每天 30 分钟</text>
+    </g>
+    <g transform="translate(742,252)">
+      <rect width="386" height="66" rx="12" fill="#FFFFFF" fill-opacity="0.07" stroke="#4CAF7D" stroke-opacity="0.45"/>
+      <circle cx="36" cy="33" r="17" fill="#4CAF7D" fill-opacity="0.18"/>
+      <text x="36" y="40" font-size="17" font-weight="700" fill="#7ED0A5" text-anchor="middle">行</text>
+      <text x="66" y="28" font-size="19" font-weight="700" fill="#F5F7FA">黄毛　Shield OS</text>
+      <text x="66" y="50" font-size="14" fill="#9FB4D0">不装 · 不等 · 不解释</text>
+    </g>
+  </g>
+
+  <!-- bottom rule -->
+  <line x1="72" y1="360" x2="1128" y2="360" stroke="#FFFFFF" stroke-opacity="0.10"/>
+  <text class="t" x="72" y="388" font-size="14" fill="#6E88AB" letter-spacing="1">一个内核 · 两个驱动 · 一个守护进程　—　没有一样要求先天条件</text>
+  <text class="t" x="1128" y="388" font-size="14" fill="#6E88AB" text-anchor="end" letter-spacing="1">★ star if useful</text>
+</svg>

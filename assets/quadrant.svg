@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="#5A6B85" viewBox="0 0 820 560" width="820" height="560" role="img" aria-label="资产四象限">
+  <defs>
+    <style>
+      .t { font-family: "PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif; }
+      .s { font-size: 14px; }
+      .b { font-size: 19px; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect width="820" height="560" fill="#FFFFFF"/>
+  <text class="t b" x="410" y="40" text-anchor="middle" fill="#16233A" font-size="22">资产四象限：你的资源花在了哪一格</text>
+
+  <!-- axis labels -->
+  <text class="t s" x="410" y="70" text-anchor="middle" font-size="13" fill="#94A3B8">横轴：服务对象（为自己 ← → 为观众）　·　纵轴：维护成本（低 ↓ 高 ↑）</text>
+
+  <!-- grid area -->
+  <g transform="translate(80,96)">
+    <!-- Q1 top-left: 高维护+为自己 -->
+    <rect x="0" y="0" width="300" height="180" fill="#FEF3C7" stroke="#FDE68A"/>
+    <text class="t b" x="150" y="42" text-anchor="middle" fill="#92400E">过度增肌</text>
+    <text class="t s" x="150" y="72" text-anchor="middle" fill="#A16207">能力强，但时间/健康/</text>
+    <text class="t s" x="150" y="92" text-anchor="middle" fill="#A16207">维护成本失控</text>
+    <text class="t s" x="150" y="128" text-anchor="middle" fill="#B45309">处方：设停止规则，降负荷</text>
+
+    <!-- Q2 top-right: 高维护+为观众 -->
+    <rect x="300" y="0" width="300" height="180" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="2"/>
+    <text class="t b" x="450" y="42" text-anchor="middle" fill="#991B1B">高富帅人设</text>
+    <text class="t s" x="450" y="72" text-anchor="middle" fill="#B91C1C">跑车 · 名表 · 精裁西装</text>
+    <text class="t s" x="450" y="92" text-anchor="middle" fill="#B91C1C">维持成本极高，变现通道已关</text>
+    <rect x="378" y="106" width="144" height="28" rx="6" fill="#DC2626"/>
+    <text class="t s" x="450" y="125" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">最危险的格子</text>
+
+    <!-- Q3 bottom-left: 低维护+为自己 -->
+    <rect x="0" y="180" width="300" height="180" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="2"/>
+    <text class="t b" x="150" y="222" text-anchor="middle" fill="#065F46">薄肌</text>
+    <text class="t s" x="150" y="252" text-anchor="middle" fill="#047857">低维护 · 高续航 · 随时能跑</text>
+    <text class="t s" x="150" y="272" text-anchor="middle" fill="#047857">每天 30 分钟，长期主义</text>
+    <rect x="52" y="290" width="196" height="28" rx="6" fill="#059669"/>
+    <text class="t s" x="150" y="309" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">功能型资产 · 目标格</text>
+
+    <!-- Q4 bottom-right: 低维护+为观众 -->
+    <rect x="300" y="180" width="300" height="180" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="2"/>
+    <text class="t b" x="450" y="222" text-anchor="middle" fill="#1E40AF">黄毛</text>
+    <text class="t s" x="450" y="252" text-anchor="middle" fill="#2563EB">不装 · 不等 · 不解释</text>
+    <text class="t s" x="450" y="272" text-anchor="middle" fill="#2563EB">把人设维护预算清零</text>
+    <rect x="352" y="290" width="196" height="28" rx="6" fill="#2563EB"/>
+    <text class="t s" x="450" y="309" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">评价成本清零 · 目标格</text>
+
+    <!-- axis -->
+    <line x1="300" y1="-14" x2="300" y2="374" stroke="#94A3B8" stroke-width="2"/>
+    <line x1="-14" y1="180" x2="614" y2="180" stroke="#94A3B8" stroke-width="2"/>
+
+    <text class="t s" x="-8" y="26" text-anchor="end" fill="#94A3B8" font-size="12">高维护</text>
+    <text class="t s" x="-8" y="358" text-anchor="end" fill="#94A3B8" font-size="12">低维护</text>
+    <text class="t s" x="0" y="392" fill="#94A3B8" font-size="12">← 为自己服务</text>
+    <text class="t s" x="600" y="392" text-anchor="end" fill="#94A3B8" font-size="12">为观众服务 →</text>
+  </g>
+
+  <!-- bottom conclusion -->
+  <rect x="80" y="492" width="600" height="46" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text class="t s" x="380" y="521" text-anchor="middle" fill="#334155" font-size="15">大肌肉为观众服务，薄肌为自己服务 —— 同样是身体，会计科目完全不同</text>
+</svg>

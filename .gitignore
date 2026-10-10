@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# 个人日志（不要把你的数据提交上来）
+journal/
+sunxue-journal/
+*.local.md
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.swp
+~$*
+
+# 本地会话数据（不进版本库）
+.workbuddy/

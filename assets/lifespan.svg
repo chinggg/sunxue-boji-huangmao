@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="#5A6B85" viewBox="0 0 900 400" width="900" height="400" role="img" aria-label="寿命100分定量模型">
+  <defs>
+    <style>
+      .t { font-family: "PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif; }
+      .s { font-size: 14px; }
+      .b { font-size: 18px; font-weight: 700; }
+    </style>
+    <linearGradient id="win" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2F6FED"/>
+      <stop offset="100%" stop-color="#5B93FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="400" fill="#FFFFFF"/>
+  <text class="t b" x="450" y="42" text-anchor="middle" fill="#16233A" font-size="22">寿命 100 分定量模型</text>
+  <text class="t s" x="450" y="68" text-anchor="middle">抗阻训练可一次性拿满前 50 分 —— 投资回报率最高的一笔投资</text>
+
+  <!-- bar : 60..840 = 780px / 100 分 -->
+  <g>
+    <rect x="60" y="104" width="195" height="62" rx="8" fill="url(#win)"/>
+    <rect x="255" y="104" width="195" height="62" rx="8" fill="url(#win)"/>
+    <rect x="450" y="104" width="133" height="62" rx="8" fill="#CBD5E1"/>
+    <rect x="583" y="104" width="133" height="62" rx="8" fill="#CBD5E1"/>
+    <rect x="716" y="104" width="124" height="62" rx="8" fill="#E2E8F0"/>
+
+    <text class="t b" x="157" y="130" text-anchor="middle" fill="#FFFFFF">心肺功能</text>
+    <text class="t b" x="157" y="153" text-anchor="middle" fill="#DCE7FF" font-size="15">25 分</text>
+
+    <text class="t b" x="352" y="130" text-anchor="middle" fill="#FFFFFF">肌肉质量</text>
+    <text class="t b" x="352" y="153" text-anchor="middle" fill="#DCE7FF" font-size="15">25 分</text>
+
+    <text class="t b" x="516" y="130" text-anchor="middle" fill="#334155">器官维护</text>
+    <text class="t b" x="516" y="153" text-anchor="middle" fill="#64748B" font-size="15">~17 分</text>
+
+    <text class="t b" x="649" y="130" text-anchor="middle" fill="#334155">抗衰</text>
+    <text class="t b" x="649" y="153" text-anchor="middle" fill="#64748B" font-size="15">~17 分</text>
+
+    <text class="t b" x="778" y="130" text-anchor="middle" fill="#64748B">基因</text>
+    <text class="t b" x="778" y="153" text-anchor="middle" fill="#94A3B8" font-size="15">~16 分</text>
+  </g>
+
+  <!-- brace for 50 -->
+  <path d="M60 182 L60 196 L450 196 L450 182" fill="none" stroke="#2F6FED" stroke-width="2"/>
+  <text class="t b" x="255" y="216" text-anchor="middle" fill="#2F6FED" font-size="17">✅ 完全可控 · 抗阻训练一次拿满 50 分</text>
+  <path d="M450 182 L450 196 L840 196 L840 182" fill="none" stroke="#94A3B8" stroke-width="2"/>
+  <text class="t s" x="645" y="216" text-anchor="middle">部分可控 / 不可控</text>
+
+  <!-- notes -->
+  <rect x="60" y="240" width="380" height="120" rx="10" fill="#EFF6FF" stroke="#BFDBFE"/>
+  <text class="t b" x="86" y="272" fill="#1E40AF" font-size="16">为什么不是有氧？</text>
+  <text class="t s" x="86" y="298">跑步等单纯有氧在提升心肺的同时</text>
+  <text class="t s" x="86" y="320">会造成肌肉流失。</text>
+  <text class="t s" x="86" y="346" fill="#1E40AF">只有抗阻训练能同时兼顾心肺与肌肉。</text>
+
+  <rect x="460" y="240" width="380" height="120" rx="10" fill="#FEF2F2" stroke="#FECACA"/>
+  <text class="t b" x="486" y="272" fill="#B91C1C" font-size="16">⚠️ 司美格鲁肽陷阱</text>
+  <text class="t s" x="486" y="298">越打药 → 基础代谢断崖下跌 → 停药反弹</text>
+  <text class="t s" x="486" y="320">→ 肌肉更少 → 晚年肌无力、极易骨折</text>
+  <text class="t s" x="486" y="346" fill="#B91C1C">你在借未来的寿命，还今天的体重。</text>
+
+  <text class="t s" x="450" y="386" text-anchor="middle" fill="#94A3B8" font-size="13">肌肉 = 身体的美金现金存量，应激时代谢会优先扣除它去修复器官</text>
+</svg>
